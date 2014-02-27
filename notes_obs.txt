@@ -1,0 +1,161 @@
+UU Aqr
+
+=====================================
+
+Three grating angles.
+
+1- uuaqr_blue
+grating pg2300, slit width 1.25 as
+Grating angle 27.5
+SNR 100, at Balmer jump: 
+	exposure time 12.73 secs
+	total time incl overheads 38.4 secs
+
+3434-4537
+chip gaps 3804-3205, 4183-4202. Resolution ~ 2300, error estimate 30A.
+
+
+2- uuaqr_mid
+grating pg2300. 
+Grating angle 35.375
+SNR 100, at 4686: 
+	exposure time 1.66 secs
+	total time incl overheads 27.4 secs
+
+4096-5148
+chip gaps 4454-4473, 4814-4833. Resolution ~ 3000, error estimate 30A. 
+
+
+3- uuaqr_mid2
+grating pg2300. 
+Grating angle 40.25 deg
+SNR 100, at 5200: 
+	exposure time 2.49 secs
+	total time incl overheads 28.2 secs
+
+5104-6054
+chip gaps 5433-5451, 5759-5775
+
+
+4- uuaqr_red
+grating pg2300. 
+Grating angle 46.625 deg
+SNR 100, at H alpha: 
+	exposure time 5.07 secs
+	total time incl overheads 30.8 secs
+
+5850-6705
+chip gaps 6151-6445-6460
+
+
+
+TOTAL UU AQR: 124.8
+
+
+
+
+
+
+IX Vel
+=====================================
+
+1- ixvel_blue
+grating pg2300, slit width 1.25 as
+Grating angle 27.5
+SNR 100, at Balmer jump: 
+	exposure time 0.24 secs
+	total time incl overheads 25.9 secs
+
+3434-4537
+chip gaps 3804-3205, 4183-4202. Resolution ~ 2300, error estimate 30A.
+
+
+2- ixvel_mid
+grating pg2300. 
+Grating angle 35.375
+SNR 100, at 4686: 
+	exposure time 0.03 secs
+	total time incl overheads 25.7 secs
+
+4500-5434
+chip gaps 4825-4842, 5145-5161
+
+
+3- ixvel_mid2
+grating pg2300. 
+Grating angle 40.25 deg
+SNR 100, at 5200: 
+	exposure time 0.05 secs
+	total time incl overheads 25.7 secs
+
+5389-6255
+chip gaps 5694-5710, 5991-6006
+
+
+4- ixvel_red
+grating pg2300. 
+Grating angle 46.625 deg
+SNR 100, at H alpha: 
+	exposure time 0.10 secs
+	total time incl overheads 25.8
+
+5850-6705
+chip gaps 6151-6445-6460
+
+
+
+TOTAL IX VEL: 103.2 
+
+
+
+
+RW Sex
+=====================================
+
+1- rwsex_blue
+grating pg2300, slit width 1.25 as
+Grating angle 27.5
+SNR 100, at Balmer jump: 
+	exposure time 0.56 secs
+	total time incl overheads 26.3 secs
+
+3505-4723
+chip gaps 3902-3924, 4319-4341. Resolution ~ 3000, error estimate 30A.
+
+
+2- rwsex_mid
+grating pg2300. 
+Grating angle 35.375
+SNR 100, at 4686: 
+	exposure time 0.07 secs
+	total time incl overheads 25.8 secs
+
+4500-5434
+chip gaps 4825-4842, 5145-5161
+
+
+3- rwsex_mid2
+grating pg2300. 
+Grating angle 40.25 deg
+SNR 100, at 5200: 
+	exposure time  0.11 secs
+	total time incl overheads 25.8 secs
+
+5389-6255
+chip gaps 5694-5710, 5991-6006
+
+
+4- rwsex_red
+grating pg2300. 
+Grating angle 46.625 deg
+SNR 100, at H alpha: 
+	exposure time 0.22 secs
+	total time incl overheads 25.8
+
+5850-6705
+chip gaps 6151-6445-6460
+
+
+
+
+TOTAL RW Sex: 103.7
