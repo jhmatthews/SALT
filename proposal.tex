@@ -1,0 +1,141 @@
+% ------------------------------------------------------
+%
+% SALT Phase I Proposal Template
+%
+% This templates uses the saltproposal document class.
+% You will need the "framed" LaTeX package to use it.
+%
+% Please email salthelp@saao.ac.za if you
+% have any questions about this template.
+%
+% ------------------------------------------------------
+
+% Do not change these options
+\documentclass[10pt]{saltproposal}
+
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\usepackage{epstopdf}
+
+\begin{document}
+	% IMPORTANT:
+	% You cannot use floating environments such as the figure or
+	% table environment.
+	% In order to see what details are expected in the various
+	% sections, have a look at the PDF output.
+	
+	
+	\ScientificRationale{
+	\input{science.tex}
+	}
+	
+
+
+	% Immediate objectives.
+	\ImmediateObjectives{ 
+	Our objective is to use the wide-band spectrum for direct comparison with our radiative transfer simulations. 
+	By obtaining spectra at a variety of inclinations we will be able to test for the presence or otherwise 
+	of a Balmer jump in emission or absorption, discover trends in line emission strengths and profile shapes
+	across the Balmer series, and assess the Helium emission. Combined with our theoretical work, 
+	this will provide a unique insight into how much the disk wind affects the optical spectra of CVs.
+	}
+	
+
+
+    % Completion requirements.
+    \CompletionRequirements {
+        % Insert your data requirements for completing the proposal here.
+        Broadband optical spectra, as described in the technical justification, for all three objects: RW Sextantis, IX Velorium 
+        and UU Aquarii. 
+    } 
+	
+	
+
+	% Technical justification.
+	\TechnicalJustification{
+		% Insert your technical justification here.
+		In their normal state, RW Sextantis, IX Velorium and UU Aquarii have optical V band magnitudes of 
+		$9.9$, $9.0$ and $13.3$ respectively (Ritter \& Kolb 2003).
+		We require ${\rm SNR} \geq 30$ for all objects, but fortunately this is easily achievable with
+		time budgets still being dominated by overheads. In total, we estimate 198.3 seconds of 
+		total time (exposure plus overheads) for UU Aqr, and ?? and ?? for RW Sex and IX Vel respectively.
+
+		We will be using RSS in long slit mode. Will will use the pg2300 grating which 
+		provides coverage from ??? to ??? with a high enough spectral resolution. 
+		We suggest the following grating angles, to be repeated for {\bf each} observation
+
+		\begin{itemize}
+		\item Camera Station $60.25^\circ$, Grating angle $48.875^\circ$. Simulation file uuaqr\_blue.rsim.
+		\item Camera Station $70.75^\circ$, Grating angle $29.375^\circ$. Simulation file uuaqr\_mid.rsim.
+		\item Camera Station $85.0^\circ$, Grating angle $39.125^\circ$. Simulation file uuaqr\_mid2.rsim.
+		\item Camera Station $98.5^\circ$, Grating angle $49.25^\circ$. Simulation file uuaqr\_red.rsim.
+		\end{itemize}
+
+		These grating settings provide coverage from $\lambda 3505\AA- \lambda 6949 \AA$.
+		This set of observations has a combined exposure time of ?? and overheads of ?? leading to a total ?? of time, and obtains 
+		${\rm SNR} \geq 30$ for all observations, and ${\rm SNR} \sim 100$ in the majority of cases.
+		}
+	
+	
+
+	% Role of the PI.
+	\RoleOfPI{
+	    The PI will liase with the Co-Is and SA.
+		% Insert the role of the PI here.
+	}
+
+	% References.
+	\References{
+	\ReferencePair
+	    {Cordova \& Mason, 1982, ApJ, 260, 716}
+	    {Dhillon 1996, IAU Colloq. 158: 208, 3}
+	\ReferencePair
+        {Drew \& Proga 2000, NewA Rev., 44, 21}
+	    {Knigge \& Drew 1997, ApJ, 486, 445}	
+	\ReferencePair
+	    {Long \& Knigge 2002, ApJ, 579, 725}
+	    {Lucy 2002, A\&A, 384, 725}
+	\ReferencePair
+	    {Lucy 2003, A\&A, 403, 261}
+	    {Matthews et al., in preparation}
+	\ReferencePair
+	    {Ritter \& Kolb 2003, A\&A, 404, 301}
+	    {Rutten, van Paradijs \& Tinbergen 1992, A\&A, 260, 213}
+	\ReferencePair
+	    {Shakura \& Sunyaev 1973, A\&A, 24, 337}
+	    {Silk \& Rees 1998, A\&A, 331, L1}
+	\ReferencePair
+	    {Weymann et al. 1991, ApJ, 373, 23}
+	%\ReferencePair
+	%	{Linnell et al. 2010, ApJ, 719, 271}  %% The Anomalous Accretion Disk of the Cataclysmic Variable RW Sextantis
+	%	{Beurmann et al. 1992, A\&A, 256,433} %% Phase-resolved spectroscopy of the novalike cataclysmic variable RW Sextantis
+										  %% inclination 28-40
+
+	}
+	
+	
+	\AdditionalFigures{
+	    \includegraphics[height=300px]{specprop2.png}
+
+	    \smallskip
+	    {\bf Figure 1:} A simulated spectrum at angles of 30, 60 and 80 degrees, which are
+	    the viewing angles corresponding showing to the inclinations of the three targets. 
+	    Recombination lines in the Balmer series and Helium I \& II are prominent. The filling in
+	    of the Balmer jump can be seen clearly in the highest inclination model. 
+	    %caption{A simulated spectrum at angles of 30, 60 and 85 degrees showing clearly
+	    %the recombination lines and lack of Balmer jump seen in our models.}
+		% Insert any additional figures and graphics here.
+		%
+		% Allowable file types are:
+		% If you are compiling using PDFLaTeX: JPG, PNG, PDF, EPS
+		% If you are compiling with plain LaTeX: EPS only
+		%
+		% Example:
+		% \includegraphics[height=200px]{Filename.eps}
+
+	}
+
+	
+\end{document}
